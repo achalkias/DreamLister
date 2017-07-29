@@ -88,6 +88,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
+
+
+// MARK: APP VARIABLES
+
+//Global variable to access app delegate functions
+let ad = UIApplication.shared.delegate as! AppDelegate
+//Single global variable for the context
+let context = ad.persistentContainer.viewContext
 

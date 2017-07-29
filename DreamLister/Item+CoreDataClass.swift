@@ -18,7 +18,7 @@ public class Item: NSManagedObject {
         //Call super class
         super.awakeFromInsert()
         
-        //When an item is being created. Assing the current date to atribute created
+        //When an item is being created. Assing the current date timestamp to atribute created
         self.created = NSDate()
         
         
